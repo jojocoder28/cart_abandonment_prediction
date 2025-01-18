@@ -22,7 +22,6 @@ features = [
     'Payment_Method', 'Browsing_Time_mins', 
     'Discount_Applied', 'Loyalty_Points_Earned'
 ]
-st.title("Cart Abandonment Prediction App")
 st.write("Predict cart abandonment and get actionable insights to reduce it.")
 # Define options for categorical features
 user_inputs = {}
