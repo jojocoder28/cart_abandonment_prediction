@@ -5,6 +5,8 @@ import joblib
 import google.generativeai as genai
 from sklearn.pipeline import Pipeline
 
+st.title('Chop The Data - Cart Abandonment Prediction')
+
 df = pd.read_csv("IIMK_Coherence6_Case_Dataset.csv")
 # Load the trained model and label encoders
 model = joblib.load("cart_abandonment_model.pkl")
